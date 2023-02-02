@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="./imgs/logo_64.png">
+        <title>VK Challenges</title>
+    </head>
+    <body>
+        <div class="header"><div class="logo"><img src="./imgs/logo_512.png" class="logo_img"/><div class="app_name">Challenges</div></div></div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
+
+<style>
+    @font-face {
+	font-family: 'VK'; 
+	src: url(./fonts/VKSansDisplay-Bold.ttf); 
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'VK';
+    }
+    body{
+        background: #ddd;
+    }
+    div.header{
+        position: fixed;
+        top:0;
+        width: 100%;
+        height: 10%;
+        min-height: 80px;
+        background: #fff;
+        box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+    }
+    div.logo {
+        display: flex;
+        position: relative;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .logo_img{
+        position: relative;
+        margin-left: 20px;
+        height: 80%;
+    }
+    div.app_name{
+        font-size: 200%;
+        margin-left: 30px;
+    }
+
+</style>
